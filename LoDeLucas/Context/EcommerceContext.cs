@@ -12,7 +12,7 @@ namespace LoDeLucas.Context
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Producto> Productos { get; set; }
         public DbSet<Carrito> Carritos { get; set; }
-        public DbSet<LoDeLucas.Cafe> Cafe { get; set; } = default!;
+        public DbSet<Cafe> Cafe { get; set; } = default!;
     }
 
 }

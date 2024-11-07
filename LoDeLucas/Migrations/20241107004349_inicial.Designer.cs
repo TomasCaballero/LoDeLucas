@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LoDeLucas.Migrations
 {
     [DbContext(typeof(EcommerceContext))]
-    [Migration("20241031133530_Inicial")]
-    partial class Inicial
+    [Migration("20241107004349_inicial")]
+    partial class inicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -49,9 +49,6 @@ namespace LoDeLucas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CarritoIdCarrito")
-                        .HasColumnType("int");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -65,8 +62,6 @@ namespace LoDeLucas.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CarritoIdCarrito");
 
                     b.ToTable("Clientes");
                 });
@@ -82,6 +77,11 @@ namespace LoDeLucas.Migrations
                     b.Property<double>("Descuento")
                         .HasColumnType("float");
 
+                    b.Property<string>("Discriminator")
+                        .IsRequired()
+                        .HasMaxLength(8)
+                        .HasColumnType("nvarchar(8)");
+
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -92,17 +92,20 @@ namespace LoDeLucas.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Productos");
+
+                    b.HasDiscriminator().HasValue("Producto");
+
+                    b.UseTphMappingStrategy();
                 });
 
-            modelBuilder.Entity("LoDeLucas.Cliente", b =>
+            modelBuilder.Entity("LoDeLucas.Cafe", b =>
                 {
-                    b.HasOne("LoDeLucas.Carrito", "Carrito")
-                        .WithMany()
-                        .HasForeignKey("CarritoIdCarrito")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                    b.HasBaseType("LoDeLucas.Producto");
 
-                    b.Navigation("Carrito");
+                    b.Property<int>("TipoCafe")
+                        .HasColumnType("int");
+
+                    b.HasDiscriminator().HasValue("Cafe");
                 });
 #pragma warning restore 612, 618
         }

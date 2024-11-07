@@ -46,9 +46,6 @@ namespace LoDeLucas.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("CarritoIdCarrito")
-                        .HasColumnType("int");
-
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -62,8 +59,6 @@ namespace LoDeLucas.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("CarritoIdCarrito");
 
                     b.ToTable("Clientes");
                 });
@@ -108,17 +103,6 @@ namespace LoDeLucas.Migrations
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Cafe");
-                });
-
-            modelBuilder.Entity("LoDeLucas.Cliente", b =>
-                {
-                    b.HasOne("LoDeLucas.Carrito", "Carrito")
-                        .WithMany()
-                        .HasForeignKey("CarritoIdCarrito")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Carrito");
                 });
 #pragma warning restore 612, 618
         }
