@@ -14,11 +14,9 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="TipoCafe" class="control-label"></label>
-
                 <select asp-for="TipoCafe" class="form-control" asp-items="Html.GetEnumSelectList<TipoCafe>()">
                     <option selected="selected" value="">Please select</option>
                 </select>
-
                 <span asp-validation-for="TipoCafe" class="text-danger"></span>
             </div>
             <div class="form-group">

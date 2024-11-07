@@ -17,6 +17,7 @@ namespace LoDeLucas
         public double Precio    { get; set;}
         public double Descuento { get; set; }
 
+        public Producto() { }
         public Producto(string nombre, double precio, double descuento)
         {
             this.Nombre = nombre;
