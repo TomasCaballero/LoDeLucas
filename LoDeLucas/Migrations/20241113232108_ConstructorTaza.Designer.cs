@@ -3,6 +3,7 @@ using LoDeLucas.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LoDeLucas.Migrations
 {
     [DbContext(typeof(EcommerceContext))]
-    partial class EcommerceContextModelSnapshot : ModelSnapshot
+    [Migration("20241113232108_ConstructorTaza")]
+    partial class ConstructorTaza
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -103,16 +106,6 @@ namespace LoDeLucas.Migrations
                         .HasColumnType("int");
 
                     b.HasDiscriminator().HasValue("Cafe");
-                });
-
-            modelBuilder.Entity("LoDeLucas.Taza", b =>
-                {
-                    b.HasBaseType("LoDeLucas.Producto");
-
-                    b.Property<int>("Material")
-                        .HasColumnType("int");
-
-                    b.HasDiscriminator().HasValue("Taza");
                 });
 #pragma warning restore 612, 618
         }
