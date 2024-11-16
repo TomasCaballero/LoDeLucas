@@ -22,7 +22,7 @@
             }
         </div>
         <div>
-            <p>Cliente: @cliente.Nombre @cliente.Apellido</p>
+            <p><b>Cliente:</b> @cliente.Nombre @cliente.Apellido</p>
             <p>Email: @cliente.Email</p>
         </div>
         <form asp-action="Create">
@@ -34,7 +34,7 @@
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="EnvioADomicilio" onchange="calcularTotal()" /> @Html.DisplayNameFor(model => model.EnvioADomicilio)
+                    <input class="form-check-input" asp-for="EnvioADomicilio" onchange="calcularTotal()" /> Envío a domicilio
                 </label>
                 <p>*Si se selecciona la opción de envío a domicilio, se agregará una tarifa de $2000 al precio total </p>
             </div>
