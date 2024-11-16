@@ -7710,23 +7710,24 @@
     "net8.0": [
       "Microsoft.EntityFrameworkCore.SqlServer >= 8.0.10",
       "Microsoft.EntityFrameworkCore.Tools >= 8.0.11",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "Microsoft.VisualStudio.Web.CodeGenerators.Mvc >= 8.0.7"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tomas\\.nuget\\packages\\": {}
+    "C:\\Users\\anama\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programación de Nuevas Tecnologías 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\LoDeLucas.csproj",
+      "projectUniqueName": "D:\\projects\\PNT\\LoDeLucas\\LoDeLucas.csproj",
       "projectName": "LoDeLucas",
-      "projectPath": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programación de Nuevas Tecnologías 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\LoDeLucas.csproj",
-      "packagesPath": "C:\\Users\\tomas\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programación de Nuevas Tecnologías 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\obj\\",
+      "projectPath": "D:\\projects\\PNT\\LoDeLucas\\LoDeLucas.csproj",
+      "packagesPath": "C:\\Users\\anama\\.nuget\\packages\\",
+      "outputPath": "D:\\projects\\PNT\\LoDeLucas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\tomas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\anama\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7769,6 +7770,10 @@
             "version": "[8.0.11, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "[8.0.7, )"
+          },
+          "Microsoft.VisualStudio.Web.CodeGenerators.Mvc": {
             "target": "Package",
             "version": "[8.0.7, )"
           }

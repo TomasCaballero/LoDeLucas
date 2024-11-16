@@ -12,6 +12,8 @@ namespace LoDeLucas
 
             builder.Services.AddDbContext<EcommerceContext>( options =>options.UseSqlServer(builder.Configuration["ConnectionString:LoDeLucasDBConnection"]));
 
+            builder.Services.AddSession();
+
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 
@@ -23,6 +25,8 @@ namespace LoDeLucas
                 app.UseExceptionHandler("/Home/Error");
             }
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseRouting();
 

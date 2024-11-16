@@ -1,0 +1,47 @@
+﻿@model LoDeLucas.Models.Compra
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Detalles</h1>
+
+<div>
+    <h4>Compra</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            Producto
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Producto.Nombre)
+        </dd>
+        <dt class="col-sm-2">
+            Cliente
+        </dt>
+        <dd class="col-sm-10">
+            @(Model.Cliente.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Cantidad)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Cantidad)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreatedAt)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreatedAt)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EnvioADomicilio)
+        </dt>
+        <dd class = "col-sm-10">
+            @(Model.EnvioADomicilio ? "Sí" : "No")
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Volver a la lista</a>
+</div>

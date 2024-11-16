@@ -1,0 +1,76 @@
+﻿@model LoDeLucas.Models.Compra
+
+@{
+    ViewData["Title"] = "Create";
+    var cliente = Model.Cliente != null ? Model.Cliente : new Cliente();
+    var producto = Model.Producto != null ? Model.Producto : new Producto();
+}
+
+<h1>Confirmar compra</h1>
+
+<h4>Compra</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div>
+            <p><b>Producto: </b>@producto.Nombre</p>
+            <p>Precio unitario: $@producto.Precio</p>
+            @if (producto.Descuento != 0)
+            {
+                <p>Descuento: @producto.Descuento %</p>
+                <p><b>Precio final:</b> $@(producto.Precio - producto.Precio * producto.Descuento / 100)</p>
+            }
+        </div>
+        <div>
+            <p>Cliente: @cliente.Nombre @cliente.Apellido</p>
+            <p>Email: @cliente.Email</p>
+        </div>
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Cantidad" class="control-label"></label>
+                <input asp-for="Cantidad" class="form-control" id="cantidadInput" onchange="calcularTotal()" />
+                <span asp-validation-for="Cantidad" class="text-danger"></span>
+            </div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="EnvioADomicilio" onchange="calcularTotal()" /> @Html.DisplayNameFor(model => model.EnvioADomicilio)
+                </label>
+                <p>*Si se selecciona la opción de envío a domicilio, se agregará una tarifa de $2000 al precio total </p>
+            </div>
+
+            <div>
+                <h3>Total: <span id="total">$@(Model.CalcularCosto().ToString("F2"))</span></h3>  <!-- Inicialmente, el total calculado -->
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Confirmar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a href="Producto">Cancelar</a>
+</div>
+
+@section Scripts {
+    <script>
+        function calcularTotal() {
+            var cantidad = document.getElementById('cantidadInput').value;  
+            var precioUnitario = @producto.Precio;  
+            var descuento = @producto.Descuento;  
+
+            var precioFinal = descuento != 0 ? precioUnitario - (precioUnitario * descuento / 100) : precioUnitario;
+
+            var total = precioFinal * cantidad;
+
+            var envioADomicilio = document.getElementById('EnvioADomicilio').checked;
+            if (envioADomicilio) {
+                total += 2000;  // Agregar el costo de envío
+            }
+
+            document.getElementById('total').innerText = "$" + total.toFixed(2);
+        }
+    </script>
+}

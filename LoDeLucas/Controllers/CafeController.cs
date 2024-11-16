@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LoDeLucas;
 using LoDeLucas.Context;
+using System.Text.Json;
 
 namespace LoDeLucas.Controllers
 {
@@ -39,6 +40,7 @@ namespace LoDeLucas.Controllers
             {
                 return NotFound();
             }
+            HttpContext.Session.SetString("Producto", JsonSerializer.Serialize(cafe));
 
             return View(cafe);
         }
