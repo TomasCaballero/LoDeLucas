@@ -9,6 +9,12 @@
 <p>
     <a asp-action="Create">Crear nuevo</a>
 </p>
+<form asp-controller="Cliente" asp-action="Index">
+    <p>
+        <label>Email: <input type="text" name="SearchString" /></label>
+        <input type="submit" value="Filter" />
+    </p>
+</form>
 <table class="table">
     <thead>
         <tr>

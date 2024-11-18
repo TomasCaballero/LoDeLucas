@@ -1,46 +1,42 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\",
+  "WorkspaceRootPath": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\context\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\context\\ecommercecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\migrations\\20241107004349_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\migrations\\20241107004349_inicial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\migrations\\20241113232946_modificaciondelcontextotaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\migrations\\20241113232946_modificaciondelcontextotaza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\migrations\\20241107013443_constructoresvacios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\migrations\\20241107013443_constructoresvacios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\models\\item.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\models\\carrito.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\producto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\views\\cafe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\cafe\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\producto\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\controllers\\productocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\models\\producto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\views\\cafe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\views\\cafe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\cafe\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\views\\cafe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\cafe\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Migrations\\20241031141236_ModificandoConstructorCafeYProducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:LoDeLucas\\Migrations\\20241031141236_ModificandoConstructorCafeYProducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\proyectofinal\\lodelucas\\lodelucas\\models\\cafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\models\\cafe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|c:\\users\\tomas\\onedrive\\escritorio\\ort\\2do cuatrimestre\\materias\\3. programaci\u00F3n de nuevas tecnolog\u00EDas 1\\lodelucasentity\\lodelucas\\lodelucas\\views\\taza\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{699B41C0-CA24-4851-A136-C585E5A0CBB8}|LoDeLucas\\LoDeLucas.csproj|solutionrelative:lodelucas\\views\\taza\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -53,137 +49,126 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "LoDeLucas\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:33:31.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Index.cshtml",
-              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Cafe\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Index.cshtml",
-              "RelativeToolTip": "LoDeLucas\\Views\\Cafe\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:31:05.9Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Producto\\Index.cshtml",
-              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Producto\\Index.cshtml",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Producto\\Index.cshtml",
-              "RelativeToolTip": "LoDeLucas\\Views\\Producto\\Index.cshtml",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwCgAAABTAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:30:00.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Producto\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Producto\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Producto\\Edit.cshtml",
-              "RelativeToolTip": "LoDeLucas\\Views\\Producto\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:29:54.587Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ProductoController.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Controllers\\ProductoController.cs",
-              "RelativeDocumentMoniker": "LoDeLucas\\Controllers\\ProductoController.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Controllers\\ProductoController.cs",
-              "RelativeToolTip": "LoDeLucas\\Controllers\\ProductoController.cs",
-              "ViewState": "AgIAAFkAAAAAAAAAAADgv1sAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:29:30.007Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Edit.cshtml",
-              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Cafe\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Edit.cshtml",
-              "RelativeToolTip": "LoDeLucas\\Views\\Cafe\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Views\\Producto\\Index.cshtml",
+              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Producto\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Views\\Producto\\Index.cshtml",
+              "RelativeToolTip": "LoDeLucas\\Views\\Producto\\Index.cshtml",
+              "ViewState": "AgIAACIAAAAAAAAAAAAwwDcAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:28:20.093Z",
+              "WhenOpened": "2024-11-13T22:56:30.778Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Create.cshtml",
-              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Cafe\\Create.cshtml",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Create.cshtml",
-              "RelativeToolTip": "LoDeLucas\\Views\\Cafe\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Edit.cshtml",
+              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Cafe\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Views\\Cafe\\Edit.cshtml",
+              "RelativeToolTip": "LoDeLucas\\Views\\Cafe\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T14:28:01.667Z",
+              "WhenOpened": "2024-11-13T22:54:18.042Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EcommerceContext.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Context\\EcommerceContext.cs",
+              "RelativeDocumentMoniker": "LoDeLucas\\Context\\EcommerceContext.cs",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Context\\EcommerceContext.cs",
+              "RelativeToolTip": "LoDeLucas\\Context\\EcommerceContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAmwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:06:37.488Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "20241031141236_ModificandoConstructorCafeYProducto.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Migrations\\20241031141236_ModificandoConstructorCafeYProducto.cs",
-              "RelativeDocumentMoniker": "LoDeLucas\\Migrations\\20241031141236_ModificandoConstructorCafeYProducto.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Migrations\\20241031141236_ModificandoConstructorCafeYProducto.cs",
-              "RelativeToolTip": "LoDeLucas\\Migrations\\20241031141236_ModificandoConstructorCafeYProducto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAgwBEAAAAgAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "20241107004349_inicial.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Migrations\\20241107004349_inicial.cs",
+              "RelativeDocumentMoniker": "LoDeLucas\\Migrations\\20241107004349_inicial.cs",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Migrations\\20241107004349_inicial.cs",
+              "RelativeToolTip": "LoDeLucas\\Migrations\\20241107004349_inicial.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:12:37.005Z",
+              "WhenOpened": "2024-11-14T01:06:22.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20241113232946_ModificacionDelContextoTaza.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Migrations\\20241113232946_ModificacionDelContextoTaza.cs",
+              "RelativeDocumentMoniker": "LoDeLucas\\Migrations\\20241113232946_ModificacionDelContextoTaza.cs",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Migrations\\20241113232946_ModificacionDelContextoTaza.cs",
+              "RelativeToolTip": "LoDeLucas\\Migrations\\20241113232946_ModificacionDelContextoTaza.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:06:06.871Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241107013443_ConstructoresVacios.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Migrations\\20241107013443_ConstructoresVacios.cs",
+              "RelativeDocumentMoniker": "LoDeLucas\\Migrations\\20241107013443_ConstructoresVacios.cs",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Migrations\\20241107013443_ConstructoresVacios.cs",
+              "RelativeToolTip": "LoDeLucas\\Migrations\\20241107013443_ConstructoresVacios.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:05:54.965Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Item.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Models\\Item.cs",
+              "RelativeDocumentMoniker": "LoDeLucas\\Models\\Item.cs",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Models\\Item.cs",
+              "RelativeToolTip": "LoDeLucas\\Models\\Item.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T01:04:23.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "Producto.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Models\\Producto.cs",
-              "RelativeDocumentMoniker": "LoDeLucas\\Models\\Producto.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Models\\Producto.cs",
-              "RelativeToolTip": "LoDeLucas\\Models\\Producto.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Title": "Carrito.cs",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Models\\Carrito.cs",
+              "RelativeDocumentMoniker": "LoDeLucas\\Models\\Carrito.cs",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Models\\Carrito.cs",
+              "RelativeToolTip": "LoDeLucas\\Models\\Carrito.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T14:06:18.936Z",
+              "WhenOpened": "2024-11-14T01:04:08.667Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Cafe.cs",
-              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Models\\Cafe.cs",
-              "RelativeDocumentMoniker": "LoDeLucas\\Models\\Cafe.cs",
-              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\ProyectoFinal\\LoDeLucas\\LoDeLucas\\Models\\Cafe.cs",
-              "RelativeToolTip": "LoDeLucas\\Models\\Cafe.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:10:39.861Z",
+              "DocumentIndex": 8,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Views\\Taza\\Details.cshtml",
+              "RelativeDocumentMoniker": "LoDeLucas\\Views\\Taza\\Details.cshtml",
+              "ToolTip": "C:\\Users\\tomas\\OneDrive\\Escritorio\\ORT\\2do Cuatrimestre\\Materias\\3. Programaci\u00F3n de Nuevas Tecnolog\u00EDas 1\\LoDeLucasEntity\\LoDeLucas\\LoDeLucas\\Views\\Taza\\Details.cshtml",
+              "RelativeToolTip": "LoDeLucas\\Views\\Taza\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-13T23:32:09.083Z",
               "EditorCaption": ""
             }
           ]

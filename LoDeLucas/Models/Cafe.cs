@@ -8,7 +8,7 @@ namespace LoDeLucas
 {
     public class Cafe : Producto
     {
-        public TipoCafe TipoCafe { get; private set; }
+        public TipoCafe TipoCafe { get; set; }
 
         public Cafe() { }
         public Cafe(string nombre, double precio, double descuento, TipoCafe tipoCafe) : base(nombre, precio, descuento)

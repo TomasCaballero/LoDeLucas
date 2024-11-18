@@ -21,10 +21,29 @@ namespace LoDeLucas.Controllers
         }
 
         // GET: Cliente
-        public async Task<IActionResult> Index()
+        /*public async Task<IActionResult> Index()
         {
             return View(await _context.Clientes.ToListAsync());
+        }*/
+
+        public async Task<IActionResult> Index(string searchString)
+        {
+            if (_context.Clientes == null)
+            {
+                return Problem("Entity set 'Context.Cliente'  is null.");
+            }
+
+            var clientes = from m in _context.Clientes
+                         select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                clientes = clientes.Where(s => s.Email!.ToUpper().Contains(searchString.ToUpper()));
+            }
+
+            return View(await clientes.ToListAsync());
         }
+
 
         // GET: Cliente/Details/5
         public async Task<IActionResult> Details(int? id)

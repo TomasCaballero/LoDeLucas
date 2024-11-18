@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Listado de productoss</h1>
+<h1>Listado de productos</h1>
 
 <p>
    @*  <a asp-action="Create">Create New</a> *@
@@ -44,15 +44,15 @@
 
             @if (item is Cafe cafeItem)
             {
-            <td>
-                @Html.DisplayFor(modelItem => cafeItem.TipoCafe)
-            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => cafeItem.TipoCafe)
+                </td>
             }
             else if(item is Taza tazaItem)
             {
-            <td>
-                @Html.DisplayFor(modelItem => tazaItem.Material)
-            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => tazaItem.Material)
+                </td>
             }
 
             <td>

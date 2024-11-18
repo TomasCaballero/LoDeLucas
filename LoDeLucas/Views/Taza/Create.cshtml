@@ -15,7 +15,7 @@
             <div class="form-group">
                 <label asp-for="Material" class="control-label"></label>
                 <select asp-for="Material" class="form-control" asp-items="Html.GetEnumSelectList<MaterialTaza>()">
-                    <option selected="selected" value="">Please select</option>
+                    @* <option selected="selected" value="">Please select</option> *@
                 </select>
                 <span asp-validation-for="Material" class="text-danger"></span>
             </div>

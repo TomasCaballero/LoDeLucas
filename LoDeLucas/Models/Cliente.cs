@@ -9,9 +9,18 @@ namespace LoDeLucas
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
+
+        [StringLength(30)]
         public String Nombre { get; set; }
+
+        [StringLength(30)]
         public String Apellido { get; set; }
+
+        [StringLength(11, MinimumLength = 8)]
+        [RegularExpression(@"^[0-9]*$")]
         public String Telefono { get; set; }
+
+        [EmailAddress]
         public String Email { get; set; }
 
 

@@ -58,6 +58,7 @@ namespace LoDeLucas.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("TipoCafe,Id,Nombre,Precio,Descuento")] Cafe cafe)
         {
+            Console.WriteLine("TipoCafe "+cafe.TipoCafe);
             if (ModelState.IsValid)
             {
                 _context.Add(cafe);

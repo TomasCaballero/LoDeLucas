@@ -17,143 +17,143 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = LoDeLucas
 build_property.RootNamespace = LoDeLucas
-build_property.ProjectDir = D:\projects\PNT\LoDeLucas\
+build_property.ProjectDir = C:\Users\tomas\OneDrive\Escritorio\ORT\2do Cuatrimestre\Materias\3. Programación de Nuevas Tecnologías 1\LoDeLucasEntity\LoDeLucas\LoDeLucas\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\projects\PNT\LoDeLucas
+build_property.MSBuildProjectDirectory = C:\Users\tomas\OneDrive\Escritorio\ORT\2do Cuatrimestre\Materias\3. Programación de Nuevas Tecnologías 1\LoDeLucasEntity\LoDeLucas\LoDeLucas
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/projects/PNT/LoDeLucas/Pages/_ValidationScriptsPartial.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Pages/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cafe/Create.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cafe/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cafe/Delete.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cafe/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cafe/Details.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cafe/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cafe/Edit.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cafe/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cafe/Index.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cafe/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FmZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cliente/Create.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cliente/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cliente/Delete.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cliente/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cliente/Details.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cliente/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cliente/Edit.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cliente/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Cliente/Index.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Cliente/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Compras/Create.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Compras/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Compras/Delete.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Compras/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Compras/Details.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Compras/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Compras/Edit.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Compras/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Compras/Index.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Compras/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tcHJhc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Home/Index.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Home/Privacy.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Producto/Create.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Producto/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Producto/Delete.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Producto/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Producto/Details.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Producto/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Producto/Edit.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Producto/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Producto/Index.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Producto/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Shared/Error.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Taza/Create.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Taza/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF6YVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Taza/Delete.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Taza/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF6YVxEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Taza/Details.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Taza/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF6YVxEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Taza/Edit.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Taza/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF6YVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Taza/Index.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Taza/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGF6YVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/_ViewImports.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/_ViewStart.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/projects/PNT/LoDeLucas/Views/Shared/_Layout.cshtml]
+[C:/Users/tomas/OneDrive/Escritorio/ORT/2do Cuatrimestre/Materias/3. Programación de Nuevas Tecnologías 1/LoDeLucasEntity/LoDeLucas/LoDeLucas/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-wj1h2og69t
