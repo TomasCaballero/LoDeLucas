@@ -91,6 +91,8 @@ namespace LoDeLucas.Controllers
             {
                 _context.Add(compra);
                 await _context.SaveChangesAsync();
+                HttpContext.Session.Remove("Producto");
+                HttpContext.Session.Remove("Cliente");
                 return RedirectToAction(nameof(Index));
             }
             return View(compra);

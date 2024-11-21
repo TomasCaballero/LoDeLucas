@@ -10,17 +10,21 @@ namespace LoDeLucas
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
+        [Required(ErrorMessage = "El nombre es requerido")]
         [StringLength(30)]
         public String Nombre { get; set; }
 
+        [Required(ErrorMessage = "El apellido es requerido")]
         [StringLength(30)]
         public String Apellido { get; set; }
 
-        [StringLength(11, MinimumLength = 8)]
-        [RegularExpression(@"^[0-9]*$")]
+        [Required(ErrorMessage = "El telefono es requerido")]
+        [StringLength(11, MinimumLength = 8, ErrorMessage = "El numero ingresado no debe ser menor a 8 ni mayor que 11")]
+        [RegularExpression(@"^[0-9]*$", ErrorMessage = "Solo se pueden ingresar numeros")]
         public String Telefono { get; set; }
 
-        [EmailAddress]
+        [Required(ErrorMessage = "El email es requerido")]
+        [EmailAddress(ErrorMessage = "Formato de email no valido")]
         public String Email { get; set; }
 
 

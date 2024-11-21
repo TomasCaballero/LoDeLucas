@@ -4,6 +4,19 @@
     ViewData["Title"] = "Index";
 }
 
+<style>
+
+    th{
+        text-align:center;
+    }
+    
+    td{
+        text-align:center;
+    }
+    .valorNumerico{text-align:end;}
+
+</style>
+
 <h1>Listado de productos</h1>
 
 <p>
@@ -55,17 +68,17 @@
                 </td>
             }
 
-            <td>
+            <td class="valorNumerico">
                 @Html.DisplayFor(modelItem => item.Precio)
             </td>
                 
-            <td>
+            <td class="valorNumerico">
                 @Html.DisplayFor(modelItem => item.Descuento)
             </td>
             <td>
 
                     
-                    <a href="./@(item.GetType().Name)/Details/@(item.Id)"><b>Detalle</b></a> |
+                    <a href="./@(item.GetType().Name)/Details/@(item.Id)"><b>Comprar</b></a> |
                 <a href="./@(item.GetType().Name)/Edit/@(item.Id)">Editar</a> 
                 @* <a asp-action="Details" asp-route-id="@item.Id">Details</a> *@ |
                 <a asp-action="Delete" asp-route-id="@item.Id">Eliminar</a>

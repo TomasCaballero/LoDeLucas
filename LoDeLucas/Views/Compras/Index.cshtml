@@ -4,6 +4,17 @@
     ViewData["Title"] = "Index";
 }
 
+<style>
+
+    th,td{
+
+        text-align:center;
+    }
+
+    .cant{text-align:end;}
+
+</style>
+
 <h1>Historial de compras</h1>
 
 <table class="table">
@@ -36,7 +47,7 @@
             <td>
                 @item.Cliente.Email
             </td>
-            <td>
+            <td class="cant">
                 @Html.DisplayFor(modelItem => item.Cantidad)
             </td>
             <td>

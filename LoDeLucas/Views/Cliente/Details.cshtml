@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Details";
+    var productito = ViewBag.Producto;
 }
 
 <h1>Confirmar cliente</h1>
@@ -37,6 +38,6 @@
     </dl>
 </div>
 <div>
-    <a href="/Compras/Create"><b>Confirmar</b></a>
+    <a href="@(productito == null ? "/Producto" : "/Compras/Create")"><b>Confirmar</b></a>
     <a asp-action="Index">Cancelar</a>
 </div>

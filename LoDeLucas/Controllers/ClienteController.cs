@@ -38,7 +38,7 @@ namespace LoDeLucas.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                clientes = clientes.Where(s => s.Email!.ToUpper().Contains(searchString.ToUpper()));
+                clientes = clientes.Where(cliente => cliente.Email!.ToUpper().Contains(searchString.ToUpper()) || cliente.Nombre!.ToUpper().Contains(searchString.ToUpper()) || cliente.Apellido!.ToUpper().Contains(searchString.ToUpper()));
             }
 
             return View(await clientes.ToListAsync());
@@ -60,6 +60,7 @@ namespace LoDeLucas.Controllers
                 return NotFound();
             }
             HttpContext.Session.SetString("Cliente", JsonSerializer.Serialize(cliente));
+            ViewBag.Producto = HttpContext.Session.GetString("Producto");
             return View(cliente);
         }
 

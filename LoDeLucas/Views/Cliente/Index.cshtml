@@ -4,6 +4,16 @@
     ViewData["Title"] = "Index";
 }
 
+<style>
+
+    th,td{
+
+
+        text-align:center;
+    }
+
+</style>
+
 <h1>Listado de Clientes</h1>
 
 <p>
@@ -11,8 +21,8 @@
 </p>
 <form asp-controller="Cliente" asp-action="Index">
     <p>
-        <label>Email: <input type="text" name="SearchString" /></label>
-        <input type="submit" value="Filter" />
+        <input type="text" name="SearchString" placeholder="Ingresar nombre, apellido o mail" style="width:300px"/>
+        <input type="submit" value="Filtrar" />
     </p>
 </form>
 <table class="table">

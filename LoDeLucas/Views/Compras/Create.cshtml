@@ -6,6 +6,28 @@
     var producto = Model.Producto != null ? Model.Producto : new Producto();
 }
 
+<style>
+    .cantidadContainer{
+        display: flex;
+        align-items:center;
+    }
+
+    button{
+        width:40px;
+
+    }
+
+    .labelCantidad{
+        margin-right:5px;
+    }
+
+    .inputCantidad{
+
+        width: 90px;
+        text-align: center;
+    }
+</style>
+
 <h1>Confirmar compra</h1>
 
 <h4>Compra</h4>
@@ -27,9 +49,11 @@
         </div>
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-group">
-                <label asp-for="Cantidad" class="control-label"></label>
-                <input asp-for="Cantidad" class="form-control" id="cantidadInput" min="1" max="10" onchange="calcularTotal()" />
+            <div class="form-group cantidadContainer">
+                <label asp-for="Cantidad" class="control-label labelCantidad"></label>
+                <button onclick="restarCantidad(event)">-</button>
+                <input asp-for="Cantidad" class="form-control inputCantidad" id="cantidadInput" min="1" max="10" onchange="calcularTotal()" type="number" readonly/>
+                <button onclick="agregarCantidad(event)">+</button>
 
                 <span asp-validation-for="Cantidad" class="text-danger"></span>
             </div>
@@ -52,7 +76,7 @@
 </div>
 
 <div>
-    <a href="Producto">Cancelar</a>
+    <a href="/Producto">Cancelar</a>
 </div>
 
 @section Scripts {
@@ -72,6 +96,30 @@
             }
 
             document.getElementById('total').innerText = "$" + total.toFixed(2);
+        }
+
+        function agregarCantidad(e){
+            e.preventDefault();
+            var cantidad = document.getElementById('cantidadInput');
+            if (cantidad.value < 10) {
+                cantidad.value = Number(cantidad.value) + 1;
+                calcularTotal();
+            }else{
+
+                alert("La cantidad máxima es 10")
+            }
+        }
+
+        function restarCantidad(e){
+            e.preventDefault();
+            var cantidad = document.getElementById('cantidadInput');
+            if (cantidad.value > 1) {
+                cantidad.value = Number(cantidad.value) - 1;
+                calcularTotal();
+            } else {
+
+                alert("La cantidad minima es 1")
+            }
         }
     </script>
 }

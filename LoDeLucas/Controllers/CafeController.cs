@@ -41,6 +41,8 @@ namespace LoDeLucas.Controllers
                 return NotFound();
             }
             HttpContext.Session.SetString("Producto", JsonSerializer.Serialize(cafe));
+            ViewBag.Cliente = HttpContext.Session.GetString("Cliente");
+
 
             return View(cafe);
         }
