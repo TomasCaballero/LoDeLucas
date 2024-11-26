@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LoDeLucas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd07858aecbee7f64d183a9bd30f0fb090440a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f6d3241001dc50a137603d8d0d07b1612679285a")]
 [assembly: System.Reflection.AssemblyProductAttribute("LoDeLucas")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LoDeLucas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

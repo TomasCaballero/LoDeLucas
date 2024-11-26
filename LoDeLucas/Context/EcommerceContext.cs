@@ -22,5 +22,4 @@ namespace LoDeLucas.Context
                 .HasDefaultValueSql("getdate()");
         }
     }
-
 }

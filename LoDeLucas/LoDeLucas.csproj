@@ -16,4 +16,12 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc" Version="8.0.7" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\public\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\public\cafe.webp" />
+  </ItemGroup>
+
 </Project>
