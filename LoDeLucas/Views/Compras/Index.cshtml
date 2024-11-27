@@ -35,6 +35,9 @@
             <th>
                 Envío a domicilio
             </th>
+            <th>
+                Total
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -55,6 +58,9 @@
             </td>
             <td>
                 @(item.EnvioADomicilio? "Sí" : "No")
+            </td>
+             <td class="cant">
+                $@(item.CalcularCosto())
             </td>
             <td>
                 <a asp-action="Details" asp-route-id="@item.Id">Detalle</a> |

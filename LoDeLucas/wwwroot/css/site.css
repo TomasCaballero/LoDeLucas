@@ -125,3 +125,7 @@ option{
     flex-direction: column;
     justify-content: center;
 }
+
+.centeredText{
+    text-align: center;
+}

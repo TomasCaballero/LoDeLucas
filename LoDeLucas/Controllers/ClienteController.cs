@@ -38,7 +38,10 @@ namespace LoDeLucas.Controllers
 
             if (!String.IsNullOrEmpty(searchString))
             {
-                clientes = clientes.Where(cliente => cliente.Email!.ToUpper().Contains(searchString.ToUpper()) || cliente.Nombre!.ToUpper().Contains(searchString.ToUpper()) || cliente.Apellido!.ToUpper().Contains(searchString.ToUpper()));
+                clientes = clientes.Where(cliente => 
+                    cliente.Email!.ToUpper().Contains(searchString.ToUpper()) || 
+                    cliente.Nombre!.ToUpper().Contains(searchString.ToUpper()) || 
+                    cliente.Apellido!.ToUpper().Contains(searchString.ToUpper()));
             }
 
             return View(await clientes.ToListAsync());

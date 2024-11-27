@@ -19,7 +19,7 @@ namespace LoDeLucas
         public String Apellido { get; set; }
 
         [Required(ErrorMessage = "El telefono es requerido")]
-        [StringLength(11, MinimumLength = 8, ErrorMessage = "El numero ingresado no debe ser menor a 8 ni mayor que 11")]
+        [StringLength(11, MinimumLength = 8, ErrorMessage = "El numero ingresado no debe tener entre 8 y 11 dígitos")]
         [RegularExpression(@"^[0-9]*$", ErrorMessage = "Solo se pueden ingresar numeros")]
         public String Telefono { get; set; }
 
