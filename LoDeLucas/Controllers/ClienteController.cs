@@ -164,6 +164,15 @@ namespace LoDeLucas.Controllers
             var cliente = await _context.Clientes.FindAsync(id);
             if (cliente != null)
             {
+                var clienteJson = HttpContext.Session.GetString("Cliente");
+                if (clienteJson != null)
+                {
+                    var clienteDes = JsonSerializer.Deserialize<Cliente>(clienteJson);
+                    if (cliente.Id == clienteDes.Id)
+                    {
+                        HttpContext.Session.Remove("Cliente");
+                    }
+                }
                 _context.Clientes.Remove(cliente);
             }
 

@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using LoDeLucas;
 using LoDeLucas.Context;
+using System.Text.Json;
 
 namespace LoDeLucas.Controllers
 {
@@ -142,6 +143,13 @@ namespace LoDeLucas.Controllers
             var producto = await _context.Productos.FindAsync(id);
             if (producto != null)
             {
+                var productoJson = HttpContext.Session.GetString("Producto");
+                if (productoJson != null) {
+                    var productoDes = JsonSerializer.Deserialize<Producto>(productoJson);
+                    if (producto.Id == productoDes.Id) {
+                        HttpContext.Session.Remove("Producto");
+                    }
+                }
                 _context.Productos.Remove(producto);
             }
 

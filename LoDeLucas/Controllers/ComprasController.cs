@@ -87,14 +87,23 @@ namespace LoDeLucas.Controllers
             compra.Producto = _context.Productos.Find(producto.Id);
             compra.Cliente = _context.Clientes.Find(cliente.Id);
 
+            HttpContext.Session.Remove("Producto");
+            HttpContext.Session.Remove("Cliente");
+
             if (compra.Producto != null && compra.Cliente != null && compra.Cantidad >= 1)
             {
                 _context.Add(compra);
                 await _context.SaveChangesAsync();
-                HttpContext.Session.Remove("Producto");
-                HttpContext.Session.Remove("Cliente");
                 return RedirectToAction(nameof(Index));
             }
+            else {
+                return RedirectToAction(nameof(Error),compra);
+            }
+        }
+
+        // GET: Compras/Error
+        public IActionResult Error(Compra compra)
+        {
             return View(compra);
         }
 

@@ -11,6 +11,7 @@ namespace LoDeLucas.Models
         public Cliente Cliente { get; set; }
         public Producto Producto { get; set; }
 
+        [Range(1, 10, ErrorMessage = "La cantidad debe ir de 1 a 10.")]
         public int Cantidad { get; set; }
 
         public DateTime CreatedAt { get; set; }
