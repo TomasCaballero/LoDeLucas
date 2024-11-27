@@ -7,9 +7,14 @@
 }
 
 <style>
+    p{
+        width: fit-content;
+    }
     .cantidadContainer{
         display: flex;
         align-items:center;
+        justify-content:center;
+        width: 100%;
     }
 
     button{
@@ -17,14 +22,37 @@
 
     }
 
+    .buttonsContainer{
+        align-self:center;
+        justify-self: center;
+    }
     .labelCantidad{
         margin-right:5px;
     }
 
     .inputCantidad{
-
+        margin-left:5px;
+        margin-right: 5px;
         width: 90px;
         text-align: center;
+    }
+
+    .total{
+        text-align: center
+    }
+
+    .checkbox{
+        width: 16px !important;
+    }
+
+    .smallButtons{
+        all: unset;
+        color: white;
+        text-align: center;
+        min-width: 30px;
+        height:30px;
+        border-radius: 20px;
+        background-color: rgba(255,255, 255, 0.1);
     }
 </style>
 
@@ -32,9 +60,9 @@
 
 <h4>Compra</h4>
 <hr />
-<div class="row">
-    <div class="col-md-4">
-        <div>
+<div class="column">
+    <div class="row">
+        <div class="col-md-6 centeredContainerr">
             <p><b>Producto: </b>@producto.Nombre</p>
             <p>Precio unitario: $@producto.Precio</p>
             @if (producto.Descuento != 0)
@@ -42,42 +70,41 @@
                 <p>Descuento: @producto.Descuento %</p>
                 <p><b>Precio final:</b> $@(producto.Precio - producto.Precio * producto.Descuento / 100)</p>
             }
-        </div>
-        <div>
+        </div> 
+        <div class="col-md-6 centeredContainer">
             <p><b>Cliente:</b> @cliente.Nombre @cliente.Apellido</p>
             <p>Email: @cliente.Email</p>
         </div>
-        <form asp-action="Create">
+    </div>
+        <form asp-action="Create" class="col-md-12 centeredContainer">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group cantidadContainer">
                 <label asp-for="Cantidad" class="control-label labelCantidad"></label>
-                <button onclick="restarCantidad(event)">-</button>
+                <button onclick="restarCantidad(event)" class="smallButtons"><b>-</b></button>
                 <input asp-for="Cantidad" class="form-control inputCantidad" id="cantidadInput" min="1" max="10" onchange="calcularTotal()" type="number" readonly/>
-                <button onclick="agregarCantidad(event)">+</button>
+                <button onclick="agregarCantidad(event)" class="smallButtons"><b>+</b></button>
 
-                <span asp-validation-for="Cantidad" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
+                 <span asp-validation-for="Cantidad" class="text-danger"></span>
+            <div class="form-group form-check" style="width:100%">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="EnvioADomicilio" onchange="calcularTotal()" /> Envío a domicilio
+                    <input class="form-check-input checkbox" asp-for="EnvioADomicilio" onchange="calcularTotal()" /> Envío a domicilio
                 </label>
                 <p>*Si se selecciona la opción de envío a domicilio, se agregará una tarifa de $2000 al precio total </p>
             </div>
 
             <div>
-                <h3>Total: <span id="total">$@(Model.CalcularCosto().ToString("F2"))</span></h3>  <!-- Inicialmente, el total calculado -->
+                <h3 class="total">Total: <span id="total">$@(Model.CalcularCosto().ToString("F2"))</span></h3>  <!-- Inicialmente, el total calculado -->
             </div>
 
-            <div class="form-group">
+            <div class="form-group col-md-12 centeredContainer buttonsContainer">
                 <input type="submit" value="Confirmar" class="btn btn-primary" />
+                <a href="/Producto" style="text-align: center">Cancelar</a>
             </div>
         </form>
-    </div>
 </div>
 
-<div>
-    <a href="/Producto">Cancelar</a>
-</div>
+
 
 @section Scripts {
     <script>

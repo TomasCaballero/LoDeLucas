@@ -14,6 +14,7 @@ namespace LoDeLucas.Models
         [Range(1, 10, ErrorMessage = "La cantidad debe ir de 1 a 10.")]
         public int Cantidad { get; set; }
 
+        [Display(Name = "Fecha")]
         public DateTime CreatedAt { get; set; }
         public bool EnvioADomicilio { get; set; }
 

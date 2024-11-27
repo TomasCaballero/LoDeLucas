@@ -19,10 +19,10 @@
     <a asp-action="Create">Crear nuevo</a>
 </p>
 <form asp-controller="Cliente" asp-action="Index">
-    <p>
-        <input type="text" name="SearchString" placeholder="Ingresar nombre, apellido o mail" style="width:300px"/>
-        <input type="submit" value="Filtrar" class="inputFiltrar"/>
-    </p>
+    <div class="searchContainer">
+        <input type="text" name="SearchString" placeholder="Ingresar nombre, apellido o mail" style="width:300px" class="inputFiltrar" />
+        <input type="submit" value="Filtrar" class="btn btn-primary" />
+    </div>
 </form>
 <table class="table">
     <thead>

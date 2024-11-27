@@ -55,8 +55,19 @@ body {
 .form-group {
     width: 300px;
 }
-select, input {
+select, input [type="text"] {
     min-width: 100%;
+    color: black;
+}
+
+option{
+    color: black !important;
+}
+
+.searchContainer {
+    align-items:center;
+    display:flex;
+    gap:6px;
 }
 
 .inputFiltrar {
@@ -67,7 +78,10 @@ select, input {
     border-radius: 2px;
     margin-top: 2px;
     transition: ease-in-out all 250ms;
-}
+    margin-top:10px;
+    padding:6px;
+    border-radius:5px;
+}   
 
     .inputFiltrar:hover {
         background-color: rgba(255,255,255,1);
@@ -106,3 +120,8 @@ select, input {
     color: red;
 }
 
+.centeredContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
